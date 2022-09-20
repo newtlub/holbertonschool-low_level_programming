@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * Main(void) - the required program base for C
+ * main(void) - the required program base for C
  *
  * printf - print cmd with msg enclosed
  *
