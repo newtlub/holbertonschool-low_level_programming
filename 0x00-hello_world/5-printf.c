@@ -2,8 +2,6 @@
 /*
  * main - Print cmd with msg
  *
- * printf - print cmd with msg enclosed
- *
  * Return - Always 0
  */
 int main(void)
