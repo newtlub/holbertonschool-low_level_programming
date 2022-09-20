@@ -2,7 +2,7 @@
 /**
  * main - Print cmd with msg
  *
- * Return - Always 0 
+ * Return: Always returns 0
  */
 int main(void)
 {
