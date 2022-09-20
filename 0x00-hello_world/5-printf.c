@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
- * main - printf 
+ * main - printing msg
+ *
+ * printf - print cmd with msg enclosed
  *
  * Return - Always 0
  */
