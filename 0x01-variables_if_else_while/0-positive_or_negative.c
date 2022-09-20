@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
+ * main - generates a random munber
  *
- *
- *
+ * Return: always 0 ends program
  */
 int main(void)
 
