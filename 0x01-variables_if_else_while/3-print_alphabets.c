@@ -1,8 +1,9 @@
-#include <stdlib.io>
+#include <stdio.h>
 
-/**	main - printing out alphabet in lowercase followed by uppercase
+/**
+ *  main - printing out alphabet in lowercase followed by uppercase
  *
- *	Return: on success (0)
+ *  Return: on success (0)
  */
 
 int main(void)
