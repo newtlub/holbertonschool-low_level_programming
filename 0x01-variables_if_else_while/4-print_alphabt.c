@@ -12,14 +12,15 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-	if (ch == 'q' || 'e')
+	if (ch == 'e')
 	{
 		ch++;
 	}
-	else
+	else if (ch == 'q')
 	{
-		putchar(ch);
+		ch++;
 	}
+	putchar(ch);
 	}
 	putchar('\n');
 	return (0);
