@@ -13,7 +13,7 @@ void jack_bauer(void)
 	int h;
 	int m;
 
-	for (h = 0;h < 24; h++)
+	while (h < 24)
 	{
 		while (m < 60)
 		{
