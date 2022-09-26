@@ -4,6 +4,7 @@
  * _islower - determines if the character is a lowercase alpha
  * character
  *
+ * @c: character provided for function
  * Return: if lowercase return (1) otherwise return (0)
  */
 
