@@ -3,7 +3,8 @@
 /**
  * jack_bauer: A function the prints from 00:00 to 23:59
  *
- *
+ * @h: integer to track loops and represent hours
+ * @m: integer used to track loops and represent minutes
  * Return: (0) as command runs it prints out
  */
 
