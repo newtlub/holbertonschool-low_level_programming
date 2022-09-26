@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer: A function the prints from 00:00 to 23:59
+ * jack_bauer: A function loop the prints hours and minutes
  *
  * @h -  represent hours
  * @m -  used to track loops and represent minutes
