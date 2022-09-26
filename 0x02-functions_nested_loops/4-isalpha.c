@@ -3,6 +3,7 @@
 /**
  * _isalpha: tells you if a character is 
  *
+ * @c: character provided for the function to operate 
  * Return: 1 or 0 depending on if the character is an alphabet character
  */
 
