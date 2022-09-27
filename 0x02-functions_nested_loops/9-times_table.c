@@ -19,10 +19,15 @@ void times_table(void)
 	{
 		for (b = 0; b <= 9; b++)
 		{
-			c = (b * a);
+			c = (a * b);
 			if (c == 0)
 			{
+				for (c = 0; c < 1; c++)
+				{
 				_putchar('0' + c);
+				_putchar(',');
+				_putchar(' ')
+				}
 			}
 			else if (c <= 9)
 			{
