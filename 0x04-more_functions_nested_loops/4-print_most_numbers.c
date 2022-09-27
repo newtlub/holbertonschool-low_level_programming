@@ -6,7 +6,7 @@
  *
  */
 
-void print_most_number(void)
+void print_most_numbers(void)
 {
 	int i;
 
