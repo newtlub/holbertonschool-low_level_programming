@@ -28,8 +28,19 @@ void times_table(void)
 			_putchar(' ');
 		}
 		else
+		_table(void)
 		{
-			_putchar((c / 10) + '0');
+        int a;
+        int b;
+        int c;
+
+        for (a = 0; a < 10; a++;)
+	                _putchar('0');
+                _putchar(',');
+	                _putchar(' ');
+		                for (j = 1; j < 10; j++)
+				                        p = (i * j);
+			                        if (p < 10)	_putchar((c / 10) + '0');
 		}
 		_putchar(c % 10 + '0');
 		if (c < 9)
