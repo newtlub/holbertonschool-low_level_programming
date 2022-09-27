@@ -25,7 +25,7 @@ void times_table(void)
 		c = (a * b);
 		if (c < 10)
 		{
-		_putchar('_');
+		_putchar(' ');
 		}
 		else
 		{
