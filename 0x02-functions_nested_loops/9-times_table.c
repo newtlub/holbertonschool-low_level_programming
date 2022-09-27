@@ -15,27 +15,24 @@ void times_table(void)
 	int b;
 	int c;
 
-	for (a = 0; a < 10; a++;)
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-		for (b = 1; j < 10; b++)
+	for (a = 0; a < 10; a++)
+	{
+	_putchar('0');
+	_putchar(',');
+	_putchar(' ');
+		for (b = 1; b < 10; b++)
 		{
-			c = (a * b);
-			if (c < 10)
-			{
-			_putchar('_');
-			}
-			else
-			{
-			_putchar((c / 10)+ '0');
-			}
-			_putchar((c % 10)+ '0');
+		c = (a * b);
+		if (c < 10)
+		{
+		_putchar('_');
 		}
-		a++;
-}
-
-
-
-	
+		else
+		{
+		_putchar((c / 10)+ '0');
+		}
+		_putchar((c % 10)+ '0');
+		}
+	a++;
+	}
 }
