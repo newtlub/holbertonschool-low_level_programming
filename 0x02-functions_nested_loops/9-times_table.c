@@ -17,37 +17,27 @@ void times_table(void)
 
 	for (a = 0; a < 10; a++)
 	{
-	_putchar('0');
-	_putchar(',');
-	_putchar(' ');
 		for (b = 1; b < 10; b++)
 		{
-		c = (a * b);
-		if (c < 10)
-		{
-			_putchar(' ');
-		}
-		else
-		_table(void)
-		{
-        int a;
-        int b;
-        int c;
-
-        for (a = 0; a < 10; a++;)
-	                _putchar('0');
-                _putchar(',');
-	                _putchar(' ');
-		                for (j = 1; j < 10; j++)
-				                        p = (i * j);
-			                        if (p < 10)	_putchar((c / 10) + '0');
-		}
-		_putchar(c % 10 + '0');
-		if (c < 9)
-		{
-			_putchar(',');
-			_putchar(' ');
-		}
+			c = (b * a);
+			if (c == 0)
+			{
+				_putchar('0' + c);
+			}
+			else if (c < 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(c + '0');
+			}
+			else if (c < 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((c / 10) + '0');
+				_putchar((c % 10) + '0');
+			}
 		}
 	_putchar('\n');
 	}
