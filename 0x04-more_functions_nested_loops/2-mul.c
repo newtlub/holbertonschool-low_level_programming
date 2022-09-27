@@ -12,7 +12,7 @@ int mul(int a, int b)
 {
 	int p;
 
-	(a * b) = p;
-	_putchar("%d", p);
+	p = (a * b);
+	_putchar(p + '0');
 	return (0);
 }
