@@ -3,6 +3,7 @@
 /**
  * _isupper - checks if the ascii value of c is between 65-90
  *
+ * @c: input for function
  * Return: 1 if is upper alphabetical 0 otherwise
  */
 
