@@ -22,26 +22,33 @@ void times_table(void)
 			c = (a * b);
 			if (c == 0)
 			{
-				for (c = 0; c < 1; c++)
+				if (a > 0)
 				{
-				_putchar('0' + c);
-				_putchar(',');
-				_putchar(' ');
+					_putchar(' ');	
+				}
+				else
+				{
+					for (c = 0; c < 1; c++)
+					{
+					_putchar('0' + c);
+					_putchar(',');
+					_putchar(' ');
+					}
 				}
 			}
 			else if (c <= 9)
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(c + '0');
+			_putchar(',');
+			_putchar(' ');
+			_putchar(' ');
+			_putchar(c + '0');
 			}
 			else if (c > 9)
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar((c / 10) + '0');
-				_putchar((c % 10) + '0');
+			_putchar(',');
+			_putchar(' ');
+			_putchar((c / 10) + '0');
+			_putchar((c % 10) + '0');
 			}
 		}
 	_putchar('\n');
