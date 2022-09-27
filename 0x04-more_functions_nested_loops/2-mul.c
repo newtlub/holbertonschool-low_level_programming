@@ -11,6 +11,6 @@
 int mul(int a, int b)
 {
 	a = (a * b);
-	_putchar(a + '0');
+	_putchar(a);
 	return (0);
 }
