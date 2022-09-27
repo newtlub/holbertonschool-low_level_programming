@@ -10,11 +10,12 @@ void print_most_number(void)
 {
 	int i;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		if (i != 2 || i != 4)
-			_putchar(('0') + i);
-	i++;
-	_putchar('\n');
+		if (i == 2 || i == 4)
+			i++;
+		_putchar((i)+ '0');
+		if (i == 9)
+			_putchar('\n');
 	}
 }
