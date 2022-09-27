@@ -29,10 +29,11 @@ void times_table(void)
 		}
 		else
 		{
-		_putchar((c / 10)+ '0');
+		_putchar((c / 10) + '0');
 		}
-		_putchar((c % 10)+ '0');
+		_putchar((c % 10) + '0');
 		}
 	a++;
+	_putchar('\n')
 	}
 }
