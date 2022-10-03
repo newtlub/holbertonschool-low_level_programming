@@ -3,8 +3,8 @@
 /**
  * _strcat - appends the src string to dest string
  *
- * @i - used to track string element
- * @j - used to track src string element
+ * @dest: this string is used as the output of the function
+ * @src: this is the src string which is added to the end of dest
  * Return: pointer to dest string
  */
 
