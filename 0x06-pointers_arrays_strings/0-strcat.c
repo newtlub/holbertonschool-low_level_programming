@@ -1,4 +1,4 @@
-#include 'holberton.h'
+#include "holberton.h"
 
 /**
  * _strcat - appends the src string to dest string
@@ -23,5 +23,5 @@ char *_strcat(char *dest, char *src)
 		dest[i] = src[j];
 		j++;
 	}
-	return (*dest);
+	return (dest);
 }
