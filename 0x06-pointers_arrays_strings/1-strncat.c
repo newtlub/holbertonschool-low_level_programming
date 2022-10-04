@@ -1,7 +1,7 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _strncat - uses the provided strings and appends src to dest 
+ * _strncat - uses the provided strings and appends src to dest
  *
  * @dest: string to append other string too.
  * @src: provides the string to append to the other string
@@ -22,6 +22,6 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-	dest[i] = '\0'
+	dest[i] = '\0';
 return (dest);
 }
