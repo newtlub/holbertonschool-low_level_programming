@@ -4,24 +4,26 @@
  * _strncpy - copies the specified amount of characters from src to dest
  *
  * @dest: where the string is to be copied to
- * @src: what string is to be copied over
- * @n: amount of characters to copy over
+ * @src: what string provides the characters
+ * @n: amount of characters
  * Return: pointer to the copied string
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *ptr = dest;
-
-	while (*src && n--)
+	int i = 0;
+	
+	while (src[i] != '\0' && i < n)
 	{
-		*dest = *src;
-		dest++;
-		src++;
+		dest[i] = src[i];
+		i++;
 	}
-	*dest = '\0';
-	return (ptr);
-
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
 
 
 }
