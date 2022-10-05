@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * _memset - creates a buffer 
+ * _memset - creates a buffer
  *
- * @s - the area in memory to perform the function
- * @b - byte constant to populate with
- * @n - amount of bytes to fill
+ * @s: the area in memory to perform the function
+ * @b: byte constant to populate with
+ * @n: amount of bytes to fill
  * Return: pointer to the address of s
  */
 
