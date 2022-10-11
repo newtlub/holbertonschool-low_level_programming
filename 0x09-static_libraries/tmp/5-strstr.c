@@ -1,9 +1,4 @@
-/*
- * File: 5-strstr.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strstr - Locates a substring.

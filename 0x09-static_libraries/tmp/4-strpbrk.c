@@ -1,9 +1,4 @@
-/*
- * File: 4-strpbrk.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strpbrk - Searches a string for any of a set of bytes.
