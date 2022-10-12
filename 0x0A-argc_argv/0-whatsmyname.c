@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,7 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	_putchar('*argv[0]\n');
+	
+
+	printf("%s\n", argv[0]);
 	if (argc || argv)
 	{
 		/* BETTY SMELLY */
