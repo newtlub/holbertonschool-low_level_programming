@@ -1,6 +1,14 @@
 #include "main.h"
 
-/**********/
+/**
+ * _sqrt_recursion - find the square root of an int using recursion
+ * root - this function is repeated through recursions to calculate sqrt
+ *
+ * @n - main int provided
+ * @rt - tracks the root of the int
+ * 
+ * Return: returns the sqrt of the provided int n
+ */
 
 int root(int n, int rt)
 {
@@ -13,7 +21,7 @@ int root(int n, int rt)
 
 int _sqrt_recursion(int n)
 {
-	int rt = n;
+	int rt = 0;
 
 	if (n < 0)
 		return (-1);
