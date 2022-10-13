@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - find the square root of an int using recursion
- * root - this function is repeated through recursions to calculate sqrt
+ * root - handles the arithmatic calculating the sqrt
  *
- * @n - main int provided
- * @rt - tracks the root of the int
- * 
+ * @n: main int provided
+ * @rt: tracks the root of the int
  * Return: returns the sqrt of the provided int n
  */
 
@@ -18,6 +16,13 @@ int root(int n, int rt)
 		return (-1);
 	return (root(n, rt + 1));
 }
+
+/**
+ * _sqrt_recursion - find the square root of an int using recursion
+ *
+ * @n: int to calculate sq root of
+ * Return: returns the output of the root function
+ */
 
 int _sqrt_recursion(int n)
 {
