@@ -2,9 +2,9 @@
 
 /**********/
 
-int root(int n, int rt);
+int root(int n, int rt)
 {
-	if ((rt * rt) == num)
+	if ((rt * rt) == n)
 		return(rt);
 	if (rt == n / 2)
 		return(-1);
