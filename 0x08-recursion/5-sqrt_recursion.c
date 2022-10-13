@@ -5,9 +5,9 @@
 int root(int n, int rt)
 {
 	if ((rt * rt) == n)
-		return(rt);
+		return (rt);
 	if (rt == n / 2)
-		return(-1);
+		return (-1);
 	return (root(n, rt + 1));
 }
 
@@ -17,5 +17,7 @@ int _sqrt_recursion(int n)
 
 	if (n < 0)
 		return (-1);
-	return (root(n, rt));	
+	if (n == 1)
+		return (1);
+	return (root(n, rt));
 }
