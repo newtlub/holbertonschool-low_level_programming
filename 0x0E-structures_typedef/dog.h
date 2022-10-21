@@ -11,11 +11,11 @@
  * Description: This is a struct of two strings and a float
  */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
+};
 
 #endif
