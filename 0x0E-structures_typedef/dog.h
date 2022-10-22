@@ -1,6 +1,11 @@
 #ifndef DOG_H
 #define DOG_H
 
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+
 /**
  * struct dog - a struct storing name age and owner
  *
