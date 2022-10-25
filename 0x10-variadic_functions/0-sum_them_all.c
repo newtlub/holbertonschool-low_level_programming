@@ -1,13 +1,18 @@
 #include "variadic_functions.h"
 
-/**************/
+/**
+ * sum_them_all - takes in a variable list of ints and adds them all together
+ *
+ * @n: amount of arguments in the function
+ * Return: prints the variable storing the sum, if n is zero returns (0)
+ */
 
 int sum_them_all(const unsigned int n, ...)
 {
 	int i, sumall;
 	va_list args;
 
-	va_start (args, n);
+	va_start(args, n);
 
 	sumall = 0;
 
@@ -20,5 +25,5 @@ int sum_them_all(const unsigned int n, ...)
 	}
 	va_end(args);
 
-	return(sumall);
+	return (sumall);
 }
