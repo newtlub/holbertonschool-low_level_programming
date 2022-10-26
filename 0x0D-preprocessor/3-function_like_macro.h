@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-#define ABS ((N<0)?(-N):(N))
+#define ABS((N<0)?(-N):(N))
 
 #endif
