@@ -2,8 +2,14 @@
 
 #include <stddef.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-/********/
+/**
+ * _strlen - finds the length of a string
+ * @s: string to measure
+ *
+ * Return: length of string
+ */
 
 int _strlen(char *s)
 {
@@ -19,7 +25,12 @@ int _strlen(char *s)
 	return (i);
 }
 
-/**********/
+/**
+ * *_strcpy - function to copy a string
+ * @src: source of string
+ * @dest: destination where string will be copied
+ * Return: returns pointer to where the string is stored
+ */
 
 char *_strcpy(char *dest, char *src)
 {
@@ -41,7 +52,13 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-/**********/
+/**
+ * new_dog - creates a new doggy!
+ * @name: name of dog
+ * @age:  age of dog
+ * @owner: owner of dog
+ * Return: points to the new doggy
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -51,20 +68,27 @@ dog_t *new_dog(char *name, float age, char *owner)
 	i = _strlen(name);
 	j = _strlen(owner);
 
-	dog = malloc(size_of(dog_t));
+	dog = malloc(sizeof(dog_t));
 
 	if (!(dog))
 	{
 		return (NULL);
 	}
-	
+
+	dog->name = malloc(sizeof(char) * (i + 1));
+
 	if (!(dog->name))
 	{
+		free(dog);
 		return (NULL);
 	}
 
-	if ((!dog->owner));
+	dog->owner = malloc(sizeof(char) * (j + 1));
+
+	if (!(dog->owner))
 	{
+		free(dog);
+		free(dog->name);
 		return (NULL);
 	}
 
